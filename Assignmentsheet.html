@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Assignment</title>
+        <link rel="stylesheet" href="Assignment.css">
+    </head>
+    <body class="form">
+        <form class="form" name="registration" action="register.do" method="POST">
+            <div>
+            <label>Enter Name</label>
+            <input type ="text" placeholder="Enter Name" name="userName"><br><br>
+            </div>
+            <div>
+            <label>Enter Password</label>
+            <input type="password" name="password"><br><br>
+             </div>
+             <div>
+            <label>Enter Email</label>
+            <input type ="email" name="Email"><br><br>
+            </div> 
+                <div>
+                    <lable>Enter Phone Number</lable>
+                    <input type ="number" placeholder="Enter Phone Number" name = "MobileNumber"><br><br>
+                </div>
+                <div>
+                    <lable>Phone Number </lable>
+                    <input type = "tel"><br><br>
+                </div>
+
+    
+            <div>
+                <label>Enter DOB </label>
+                <input type ="date">
+            </div>    
+                <br><br>
+
+
+                <label> Select Gender</label>
+                <input type = "radio" name = "gender" value="female">Female
+                <input type = "radio" name = "gender" value="male">Male
+                <input type = "radio" name = "gender" value="others">Others
+            </div>
+
+            <div>
+                <label>Select City</label>
+                <select name = "city">
+                    <option>--Select City-- </option>
+                    <option>Bangalore</option>
+                    <option>Bellary</option>
+                    <option>Mysore</option>
+                </select>
+            </div>
+            
+            <div>
+                <input type="file" id="myfile" name="filename">
+            </div>
+            <div>
+                <label for="number">age</label>
+                <input type="number" id="number" name="age" value="1" min="18" max="60">
+            </div>
+
+            
+
+            <input type="submit" name="submit">
+            <button type ="submit"name = "Submit">Submit</button>
+            <button type = "reset">Reset</button>
+        </form>
+    </body>
+</html>
